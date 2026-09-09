@@ -110,7 +110,7 @@ def get_current_weather (name):
             break
     
     if wanna_check.lower() == "yes":
-        return get_current_weather()
+        return get_current_weather(name)
     
     else:
         sys.exit(f"\nThank you {name} for you best support\n")
