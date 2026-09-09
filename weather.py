@@ -109,7 +109,7 @@ def get_current_weather (name):
         else:
             break
     
-    if wanna_check == "yes":
+    if wanna_check.lower() == "yes":
         return get_current_weather()
     
     else:
